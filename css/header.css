@@ -1,14 +1,11 @@
 .header{
     height: 100px;
-    padding: 20px;
+    padding: 20px 0;
     top: 0;
     position: relative;
     z-index: 2;
 }
-.container{
-    width: 960px;
-    margin: 0 auto;
-}
+
 .img__logo{
     width: 75px;
     border-radius: 50%;
@@ -58,6 +55,8 @@
     cursor: default;
     transition: width 1s linear;
     background-color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
+    font-size: 14px;
 }
 .search__img{
     position: absolute;

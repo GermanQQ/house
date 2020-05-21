@@ -1,5 +1,6 @@
 @import url('header.css');
 @import url('intro.css');
+@import url('experts.css');
 
 /*Обнуление*/
 *{padding: 0;margin: 0;border: 0;}
@@ -20,7 +21,6 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
 body{
     font-family: 'Inter', sans-serif;
-    overflow: hidden;
 }
 
 .bg{
@@ -71,4 +71,9 @@ body{
     transition: all 1.2s linear 2.5s;
 }
 
-
+.container{
+    max-width: 1050px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}

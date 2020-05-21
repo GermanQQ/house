@@ -1,0 +1,122 @@
+.title__experts{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #263238;
+    font-size: 36px;
+    margin: 100px 0;
+}
+.cart__experts{
+    margin-bottom: 100px;
+    width: 45%;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+
+}
+.cart__experts:nth-child(odd){
+    margin-right: 10%;
+}
+.image__experts{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+.icon__experts{
+    width: 40%;
+    height: 100%;
+}
+.number__experts{
+    text-align: right;
+    width: 40%;
+    font-size: 170px;
+    font-weight: 600;
+    opacity: 0.1;
+    font-family: 'Poppins', sans-serif; 
+    padding-left: 5%;
+}
+
+.cart__title{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: 500;
+}
+.cart__text{
+    line-height: 30px;
+    font-weight: 400;
+    color: #263238;
+}
+
+.items__experts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+.bg__experts{
+
+}
+.circle_1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(105,154,234, 0.9);
+    position: absolute;
+    z-index: 2;
+    border-radius: 50%;
+    left: 0;
+    transform: translate(-50%,750%);
+}
+.circle_2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:rgba( 86, 210, 241, 0.8);
+    position: absolute;
+    z-index: 2;
+    transform: translate(360%, 150%);
+}
+.circle_3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba( 86, 210, 241, 0.9);
+    position: absolute;
+    z-index: 2;
+    transform: translate(-200%, 650%);
+}
+.bg__experts__png img{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    transform: translateY(-5%);
+    z-index: -1;
+}
+.btn__box{
+    margin-top: 50px;
+    text-align: center;
+}
+.btn--Contact__us{ 
+    color: #ffffff;
+    background-color: #2FC9EF;
+    font-size: 20px;
+}
+.btn--Contact__us span {
+    font-family: 'Poppins', sans-serif;
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    transition: 0.2s linear;
+}
+
+.btn--Contact__us:hover{
+    border-radius: 16px;
+    
+    background-color: rgba(255,255,255, 0.9);
+    color: #2FC9EF;
+}
+.btn--Contact__us:hover span{
+    color: #2FC9EF;
+}
