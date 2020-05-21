@@ -17,7 +17,7 @@
             <div class="container">
                 <nav class="nav">
                     <div class="logo">
-                        <img src="img/I.jpg" alt="Logo" class="img__logo">
+                        <img src="img/reviews/I.jpg" alt="Logo" class="img__logo">
                     </div>
                     <ul class="nav__items">
                         <a class="nav__link" href="#"> <li class="nav__link__text">OUR COMPANY</li> </a>
@@ -51,11 +51,11 @@
 
         <div class="experts">
             <div class="container">
-                <h2 class="title__experts">Why Arda </br> Real Estate Consulting?</h2>
+                <h2 class="title__experts" data-aos="fade-up">Why Arda </br> Real Estate Consulting?</h2>
                 <div class="bg__experts circle_1"></div>
                 <div class="bg__experts circle_3"></div>
-                    <ul class="items__experts">
-                        <li class="cart__experts">
+                    <div class="items__experts">
+                        <div class="cart__experts" data-aos="fade-right">
                             <div class="image__experts">
                                 <img src="img/experts/icon_1.png" alt="Icon" class="icon__experts">
                                 <div class="number__experts">01</div>
@@ -66,8 +66,8 @@
                             <p class="cart__text">
                                 The Arda Real Estate Consulting reputation among investors was formed by our Research group and has been reinforced by our Consulting team by providing well thought-out, unbiased commendations and advice.
                             </p>
-                        </li>
-                        <li class="cart__experts">
+                        </div>
+                        <div class="cart__experts" data-aos="fade-left" data-aos-delay="350">
                             <div class="bg__experts circle_2"></div>
                             <div class="image__experts">
                                 <img src="img/experts/icon_2.png" alt="Icon" class="icon__experts">
@@ -79,8 +79,8 @@
                             <p class="cart__text">
                                 Our Consulting group is led by a senior management team each with 20+ years of direct executive level homebuilding, development, and consulting experience.
                             </p>
-                        </li>
-                        <li class="cart__experts">
+                        </div>
+                        <div class="cart__experts" data-aos="fade-right">
                             <div class="image__experts">
                                 <img src="img/experts/icon_3.png" alt="Icon" class="icon__experts">
                                 <div class="number__experts">03</div>
@@ -91,8 +91,8 @@
                             <p class="cart__text">
                                 Many of our clients operate throughout the country. We are one of the largest and most geographically diverse consulting groups which allows us to best service their needs.
                             </p>
-                        </li>
-                        <li class="cart__experts">
+                        </div>
+                        <div class="cart__experts" data-aos="fade-left" data-aos-delay="350">
                             <div class="image__experts">
                                 <img src="img/experts/icon_4.png" alt="Icon" class="icon__experts">
                                 <div class="number__experts">04</div>
@@ -103,18 +103,101 @@
                             <p class="cart__text">
                                 Often times our clients do not have full control over timing for their deals and the Consulting team has a knack for making miracles happen.
                             </p>
-                        </li>
-                        <div class="bg__experts__png">
-                            <img  src="img/experts/bg_experts1.png" alt="">
                         </div>
-                    </ul>
-                    <div class="btn__box">
+                        <!-- <div class="bg__experts__png">
+                            <img  src="img/experts/bg_experts1.png" alt="">
+                        </div> -->
+                    </div>
+                    <div class="btn__box" data-aos="flip-up" data-aos-duration="600">
                         <a href="#" class="btn btn--Contact__us">Contact us now <span> &rarr;</span></a>
                     </div>
             </div>
         </div>
 
+            <div class="reviews">
+                <div class="container">
+
+
+
+
+                    <h3 class="reviews__title" data-aos="fade-up">Client’s testimonials</h3>
+                    <div class="reviews__slider" data-aos="fade-up">
+
+                        <div class="reviews__block">
+                            <div class="reviews__image">
+                                <picture>
+                                    <img src="img/reviews/I.jpg" alt="">
+                                </picture>
+                            </div>
+                            <p>“My experience with Arda Real Estate Consulting has enabled me to better assess current market risk level at any point in the home building cycle. Also, I have been able to make new valuable contacts.”</p>
+                            <h4>Vadim German</h4>
+                            <h5>NY</h5>
+                        </div>
+                        <div class="reviews__block">
+                            <div class="reviews__image">
+                                <picture>
+                                    <img src="img/reviews/dasha.jpg" width="150px" alt="">
+                                </picture>
+                            </div>
+                            <p>“Arda Real Estate Consulting has provided our company with sound, insightful, and timely consulting in a number of real estate related areas. Specifically, reports and analysis for credit reporting agencies, company valuation studies, and presentations to foreign investors have been areas where they have excelled.”</p>
+                            <h4>Dasha Sus</h4>
+                            <h5>Oregon</h5>
+                        </div>
+                        <div class="reviews__block">
+                            <div class="reviews__image">
+                                <picture>
+                                    <img src="img/reviews/Vova.jpg" width="150px" alt="">
+                                </picture>
+                            </div>
+                            <p>“Also, I have been able to make new valuable contacts. Specifically, reports and analysis for credit reporting agencies, company valuation studies, and presentations to foreign investors have been areas where they have excelled. My experience with.”</p>
+                            <h4>Vova Moscva</h4>
+                            <h5>UA</h5>
+                        </div>
+                        <div class="reviews__block">
+                            <div class="reviews__image">
+                                <picture>
+                                    <img src="img/reviews/johnwick.jpg" width="150px" alt="">
+                                </picture>
+                            </div>
+                            <p>“Estate Consulting has enabled me to better assess current market risk level at any point in the home building cycle.Reports specifically,  and analysis for credit reporting agencies, company valuation studies, and presentations to foreign investors have been areas where they have excelled.”</p>
+                            <h4>Sasha Bigolar</h4>
+                            <h5>Oregon</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <!-- Подключаем стили слайдеру slick -->
+        <link rel="stylesheet" href="slick/slick.css">
+        <link rel="stylesheet" href="slick/slick-theme.css">
+        <!-- Подключаем библиотеку slick -->
+        <script src="slick/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+            $('.reviews__slider').slick({
+                infinite: true,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                adaptiveHeight: true,
+                prevArrow: '<button class="prev arrow">&larr;</button>',
+                nextArrow: '<button class="next arrow">&rarr;</button>',
+                responsive: [
+                    {
+                    breakpoint: 1000,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                    }
+                ]
+            });
+            });
+        </script>
+
+        <script src="slider.js"></script>
         <script src="animate.js"></script>
     <script src="script.js"></script>
 

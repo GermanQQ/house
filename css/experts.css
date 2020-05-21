@@ -55,9 +55,6 @@
     flex-direction: row;
     width: 100%;
 }
-.bg__experts{
-
-}
 .circle_1{
     width: 100px;
     height: 100px;
@@ -95,7 +92,6 @@
     z-index: -1;
 }
 .btn__box{
-    margin-top: 50px;
     text-align: center;
 }
 .btn--Contact__us{ 
