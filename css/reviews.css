@@ -69,7 +69,11 @@ picture img{
 }
 
 
-
+@media (max-width: 1800px){
+    .reviews__title{
+        margin-top: 50%;
+    }
+}
 
 @media(max-width:1250px){
     .prev{
