@@ -6,6 +6,7 @@
     padding: 50px;
     height: 600px;
     border-radius: 20px 0 20px 20px;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
     background-image: url(../img/Form/bg_form.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -16,7 +17,7 @@
 .map__box{
     height: 500px;
     width: 400px;
-    border: 1px solid black;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     border-radius: 20px 20px 0 20px;
     position: absolute;
     right: -10%;
