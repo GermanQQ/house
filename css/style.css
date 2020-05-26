@@ -3,6 +3,7 @@
 @import url('experts.css');
 @import url('reviews.css');
 @import url('feedback.css');
+@import url('footer.css');
 /*Обнуление*/
 *{padding: 0;margin: 0;border: 0;}
 *,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
