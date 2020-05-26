@@ -2,7 +2,7 @@
     transform: translateY(-70%);
     height: 1000px;
     width: 100%;
-    background-image: url(/img/footer/bg_footer.png);
+    background-image: url(../img/footer/bg_footer.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
