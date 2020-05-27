@@ -68,3 +68,29 @@
 .search__img:hover{
     cursor: pointer;
 }
+@media (min-width: 2200px){
+    .header{
+        height: 150px;
+    }
+    
+    .img__logo{
+        width: 110px;
+    }
+    .nav__link__text{
+        font-size: 24px;
+    }
+    .input__search{
+        font-size: 18px;
+    }
+    .search__img{
+        width: 35px;
+    }
+}
+@media (max-width: 960px){
+    .input__search{
+        display: none;
+    }
+    .search__img{
+        display: none;
+    }
+}

@@ -15,7 +15,7 @@
     border-radius: 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     padding: 50px;
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(255, 255, 255, 0.85);
 
 }
 .cart__experts:nth-child(odd){
@@ -46,7 +46,7 @@
     font-weight: 500;
 }
 .cart__text{
-    line-height: 30px;
+    line-height: 1.8;
     font-weight: 400;
     color: #263238;
 }
@@ -117,4 +117,46 @@
 }
 .btn--Contact__us:hover span{
     color: #2FC9EF;
+}
+@media (min-width: 2200px){
+    .circle_2{
+        width: 150px;
+        height: 150px;
+        transform: translate(360%, 150%);
+    }
+    .circle_1{
+        width: 150px;
+        height: 150px;
+    }
+    .circle_3{
+        width: 100px;
+        height: 100px;
+    }
+    .title__experts{
+        font-size: 44px;
+    }
+    .cart__experts{
+        height: 650px;
+        padding: 75px;
+    }
+    .number__experts{
+        font-size: 200px;
+    }
+    .cart__title{
+        font-size: 30px;
+        margin: 40px 0;
+    }
+    .cart__text{
+        font-size: 20px;
+    }
+}
+@media (max-width: 960px){
+    .circle_2{
+        width: 70px;
+        height: 70px;
+    }
+    .number__experts{
+        font-size: 120px;
+    }
+    
 }

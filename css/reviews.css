@@ -85,3 +85,27 @@ picture img{
         transform: translateY(-50%);
     }
 }
+@media (min-width: 2650px){
+    .reviews__title{
+        margin-top: 100%;
+    }
+}
+@media (min-width: 2200px){
+    .reviews__title{
+        font-size: 44px;
+    }
+    .reviews__block p{
+        font-size: 24px;
+    }
+    .reviews__block h4{
+        font-size: 26px;
+    }
+    .reviews__block h5{
+        font-size: 24px;
+    }
+    .arrow{
+        width: 100px;
+        height: 100px;
+        font-size: 44px;
+    }
+}

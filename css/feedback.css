@@ -94,5 +94,59 @@
     border-radius: 10px;
 }
 
+@media (min-width: 2200px){
+    .feedback__box{
+        height: 800px;
+        padding: 100px;
+    }
+    .map__box{
+        height: 600px;
+        width: 500px;
+    }
+    
+   
+    .input__box p{
+        font-size: 22px;
+    }
+    .form__title{
+        font-size: 44px;
+    }
+    .form__sup__title{
+        font-size: 22px;
+    }
+    .input__name{
+        padding: 20px;
+        font-size: 22px;
+        
+    }
+    
+    .input__email{
+        padding: 20px;
+        font-size: 22px;
+    }
+    .textarea__flex{
+        margin-left: 50px;
+    }
+    .textarea{
+        padding: 20px;
+        font-size: 22px;
+        width: 500px;
+        height: 200px;
+        margin-bottom: 50px;
+    }
+    
+}
+@media (max-width: 1300px){
+    .map__box{
+        width: 300px;
+        height: 200px;
+        right: 0;
+        top: 0;
+    }
+    .feedback__box{
+        border-radius: 20px 20px 0 20px;
+    }
+}
+
 
 

@@ -42,6 +42,7 @@ body{
     top: 10%;
     transform: translateY(-250%);
     transition: transform 1.4s linear 2s;
+    position: absolute;
 }
 .left{
     max-width: 100%;
@@ -61,19 +62,22 @@ body{
 .up{
     width: 100%;
     max-width: 60%;
+    max-height: 50px;
     top: 0;
     right: 0;
     transform: translateY(-200%);
     transition: transform 1s linear 1.5s;
+    object-fit: cover;
 }
 .house{
-    right: 5%;
+    right: 0;
     top: 0;
     opacity: 0.4;
     max-height: 90%;
     max-width: 100%;
     transform: translateX(150%);
     transition: all 1.2s linear 2.5s;
+    object-fit: contain;
 }
 
 .container{
@@ -81,4 +85,59 @@ body{
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
+}
+
+@media (min-width: 2200px){
+    .container{
+        max-width: 1450px;
+        width: 100%;
+    }
+    .house{
+        top: 10%;
+        width: 50%; 
+    }
+    .moon{
+        width: 200px;
+        height: 200px;
+        left: 10%;
+    }
+}
+@media (max-width: 1300px){
+    .container{
+        max-width: 960px;
+        width: 100%;
+        
+    }
+    .house{
+        width: 650px;
+        
+    }
+    .moon{
+        max-width: 100px;
+        max-height: 100px;
+        left: 5%;
+        top: 10%;
+       
+    }
+    .bg{
+       height: 100vh; 
+     }
+     .up{
+         max-height: 35px;
+     }
+     body{
+        background-image: none;
+        background-color: #F5F6F7;
+    }
+    
+}
+@media (max-width: 960px){
+    .house{
+        width: 500px;
+    }
+    body{
+        background-image: none;
+        background-color: #F5F6F7;
+    }
+    
 }

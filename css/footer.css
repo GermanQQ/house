@@ -73,3 +73,48 @@
     opacity: 0.8;
     background-color: #4899E9;
 }
+@media (min-width: 2200px){
+    .footer__block{
+        padding-top: 40%;  
+         
+    }
+    .footer__text{
+        font-size: 16px;
+    }
+    .title__footer__link{
+        font-size: 18px;
+    }
+    .social{
+        margin-top: 40px;
+    }
+    .copyright p{
+        font-size: 14px;
+    }
+    .social__icon img{
+        width: 50px;
+    }
+}
+@media (max-width: 1300px){
+    .footer{
+        transform: translateY(-60%);
+    }
+}
+@media (max-width: 960px){
+    .footer{
+        transform: translateY(-50%);
+    }
+    .social{
+        padding-top: 30px;
+        margin-top: 200px;
+        
+    }
+    .footer__text{
+        display: none;
+    }
+    .logo__footer{
+        display: none;
+    }
+    .footer__items:last-child{
+        margin-right: 60px;
+    }
+}
