@@ -7,7 +7,12 @@
     transition: opacity 0.5s linear 3.8s;
 }
 .intro__text{
-    max-width: 40%;
+   text-align: left;
+    padding: 0 20px;
+}
+.btn__box{
+    display: flex;
+    justify-content: left;
 }
 .intro__title{
     color: #ffffff;
@@ -72,4 +77,14 @@
         .intro{
             height: 1000px;
         }    
+        .intro__text{
+            max-width: 100%;
+            text-align: right;
+            margin: 0 auto;
+        }
+        .intro__title__sup__text{
+            max-width: 100%;
+            text-align: right;
+        }
+        
 }
