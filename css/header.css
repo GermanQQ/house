@@ -4,6 +4,8 @@
     top: 0;
     position: relative;
     z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s linear 3.8s;
 }
 
 .img__logo{
