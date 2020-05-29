@@ -26,6 +26,7 @@ body{
     background-image: url(../img/experts/bg_experts1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .bg{

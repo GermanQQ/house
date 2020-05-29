@@ -147,6 +147,89 @@
         border-radius: 20px 20px 0 20px;
     }
 }
+@media (max-width: 768px){
+    .feedback__box{
+        width: 100%;
+        padding: 50px;
+        height: 850px;
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .map__box{
+        right: 20px;
+        top: 275px;
+    }
+    .input__box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 40px;
+        
+    }
+   
+    .input__flex{
+        height: 100%;
+    }
+    .input__name{
+        margin-bottom: 40px;
+    }
+    
+    .textarea__flex{
+        margin-left: 0px;
+    }
+    .textarea{
+        font-size: 16px;
+        width: 100%;
+        height: 185px;
+    }
+    .btn--submit{
+       left: 0%;
+
+    }
+}
+@media (max-width: 700px){
+    .map__box{
+        display: none;
+    }
+    .form__box{
+
+        margin: 0 auto;
+    }
+    .input__name{
+        font-size: 14px;
+        width: 100%;
+        padding: 16px;
+    }
+    .input__email{
+        font-size: 14px;
+        width: 100%;
+        padding: 16px;
+    }
+    .form__title{
+        text-align: center;
+        font-size: 26px; 
+    }
+    .form__sup__title{
+        font-size: 14px;
+    }
+    .feedback{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    
+
+    .input__box p{
+        font-size: 18px;
+    }
+    
+    .textarea{
+        padding: 16px;
+        font-size: 14px;
+        height: 150px;
+        margin-bottom: 0px;
+    }
+}
 
 
 
