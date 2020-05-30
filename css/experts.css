@@ -173,4 +173,7 @@
         width: 100px;
         height: 100px;
     }
+    .title__experts{
+        margin: 0 0 50px 0;
+    }
 }

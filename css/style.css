@@ -142,3 +142,23 @@ body{
     }
     
 }
+@media (max-width: 600px){
+    .moon{
+        width: 75px;
+        height: 75px;
+        left: 8%;
+    }
+    .left{
+        max-width: 100%;
+        left: -15%;
+        max-height: 100%;
+        top: 0%;
+    }
+    .up{
+        max-height: 30px;   
+    }
+    .house{
+        right: -10%;
+    }
+    
+}

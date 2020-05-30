@@ -70,6 +70,9 @@
 .search__img:hover{
     cursor: pointer;
 }
+.nav__icon{
+    display: none;
+}
 @media (min-width: 2200px){
     .header{
         height: 150px;
@@ -95,4 +98,46 @@
     .search__img{
         display: none;
     }
+}
+@media (max-width: 700px){
+    .nav__icon{
+        display: block;
+    }
+    .nav__items{
+        display: none;
+    }
+   .nav{
+       display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-bottom: 10px;
+       border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+   }
+    .nav__icon img{
+        width: 40px;
+        margin: 0 15px;
+    }
+    .img__logo{
+        display: none;
+    }
+    @keyframes bounce {
+        0%, 20%, 60%, 100% {
+            transform: translateY(0);
+            transform: translateY(0);
+        }
+    
+        40% {
+            transform: translateY(-20px);
+            transform: translateY(-20px);
+        }
+    
+        80% {
+            transform: translateY(-10px);
+            transform: translateY(-10px);
+        }
+    }
+    .nav__icon:hover{
+        animation: bounce 1s;
+    }
+
 }
