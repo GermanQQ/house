@@ -12,7 +12,8 @@
 }
 .btn__box{
     display: flex;
-    justify-content: left;
+    justify-content: center;
+    align-items: baseline;
 }
 .intro__title{
     color: #ffffff;
@@ -119,6 +120,7 @@
     }
     .btn--learn__more span{
         margin-left: 10px;
+        padding: 10px 0;
         font-size: 20px;
     }
     

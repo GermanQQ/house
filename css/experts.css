@@ -187,6 +187,7 @@
     .title__experts{
         margin: 50px 0;
         font-size: 26px;
+        line-height: 1.2;
     }
     .cart__experts{
         width: 80%;
@@ -229,6 +230,9 @@
     .btn--Contact__us span{
         margin-left: 10px;
         font-size: 20px;
+    }
+    .circle_1{
+        display: none;
     }
     
 }

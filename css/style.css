@@ -152,6 +152,7 @@ body{
         width: 75px;
         height: 75px;
         left: 8%;
+        top: 12%;
     }
     .left{
         max-width: 100%;
@@ -161,9 +162,6 @@ body{
     }
     .up{
         max-height: 30px;   
-    }
-    .house{
-        
     }
     
 }
