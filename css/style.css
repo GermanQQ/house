@@ -21,11 +21,15 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
 /*--------------------*/
+
 body{
     font-family: 'Inter', sans-serif;
     background-image: url(../img/experts/bg_experts1.png);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
+}
+.back__ground__image{
     overflow-x: hidden;
 }
 
@@ -79,6 +83,7 @@ body{
     transform: translateX(150%);
     transition: transform 1.2s linear 2.5s;
     object-fit: contain;
+    overflow-x: hidden;
 }
 
 .container{
@@ -158,7 +163,7 @@ body{
         max-height: 30px;   
     }
     .house{
-        right: -10%;
+        
     }
     
 }

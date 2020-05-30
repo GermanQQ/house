@@ -132,7 +132,9 @@
         margin-top: 20px;
     }
     .footer__block{
-        padding-top: 30%;  
-         
+        padding-top: 30%;   
+    }
+    .footer__items{
+        display: none;
     }
 }

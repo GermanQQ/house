@@ -6,7 +6,9 @@
     margin: 100px 0;
     color: #000000;
 }
-
+.experts{
+    overflow-x: hidden;
+}
 
 .cart__experts{
     margin-bottom: 100px;
@@ -15,8 +17,7 @@
     border-radius: 20px;
     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
     padding: 50px;
-    background-color: rgba(255, 255, 255, 0.85);
-
+    background-color: rgba(255, 255, 255, 0.85);  
 }
 .cart__experts:nth-child(odd){
     margin-right: 10%;
@@ -25,6 +26,7 @@
     display: flex;
     flex-direction: row;
     align-items: baseline;
+    justify-content: center;
 }
 .icon__experts{
     width: 40%;
@@ -176,4 +178,44 @@
     .title__experts{
         margin: 0 0 50px 0;
     }
+}
+
+@media (max-width: 450px){
+    .circle_2{
+        display: none;
+    }
+    .title__experts{
+        margin: 50px 0;
+        font-size: 26px;
+    }
+    .cart__experts{
+        width: 80%;
+        height: 350px;
+        padding: 20px;
+        margin: 20px auto;
+       
+    }
+    .cart__experts:nth-child(odd){
+        margin-right: 0;
+    }
+    .icon__experts{
+        height: 70px;
+        width: 90px;
+    }
+    .number__experts{
+        
+        font-size: 100px;
+        font-weight: 600;
+    }
+    .cart__title{
+        margin: 10px 0;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .cart__text{
+        line-height: 1.6;
+        font-weight: 400;
+        color: #263238;
+    }
+    
 }
