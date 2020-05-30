@@ -44,6 +44,7 @@
 .btn--learn__more span{
     font-family: 'Poppins', sans-serif;
     /* padding: 18px 0; */
+    margin-left: 5px;
     font-size: 18px;
     color: #2FC9EF;
     font-weight: 700;
