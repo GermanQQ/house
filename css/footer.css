@@ -168,7 +168,14 @@
         margin-right: 0;
     }
     
+    
     .footer__link{
+        display: none;
+    }
+    .footer__text{
+        display: none;
+    }
+    .logo__footer{
         display: none;
     }
     .footer__items{
@@ -188,5 +195,26 @@
     }
     .social__icon img:hover{
         animation: bounce 1s;
+    }
+    .social{
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+}
+@media (max-width: 374px){
+    .footer__block{
+        padding-top: 60%;  
+        
+    }
+    
+    .social{
+        padding-top: 20px;
+        margin-top: 40px;
+    }
+    .copyright p{
+        font-size: 10px;
+    }
+    .social__icon img{
+        margin: 0 3px;
     }
 }

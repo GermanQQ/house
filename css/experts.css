@@ -239,3 +239,8 @@
     }
     
 }
+@media (max-width: 374px){
+    .number__experts{
+        font-size: 70px;
+    }
+}

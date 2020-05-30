@@ -29,15 +29,23 @@ function search(){
 
 //Якорные ссылки js
 
-const anchors = document.querySelectorAll('a[href*="#"]'); 
+// const anchors = document.querySelectorAll('a[href*="#"]'); 
 
-for (let anchor of anchors){
-    anchor.addEventListener("click", function(event){
-        event.preventDefault();
-        const blockID = anchor.getAttribute('href');
-        document.querySelector('' + blockID).scrollIntoView({
-            behavior: "smooth",
-            block: "start"
-        })
-    })
+// for (let anchor of anchors){
+//     anchor.addEventListener("click", function(event){
+//         event.preventDefault();
+//         const blockID = anchor.getAttribute('href');
+//         document.querySelector('' + blockID).scrollIntoView({
+//             behavior: "smooth",
+//             block: "start"
+//         })
+//     })
+// }
+
+function slowScroll(id) {
+    var offset = 0;
+    $('html, body').animate({
+        scrollTop: $(id).offset().top - offset
+    }, 1000);
+    return false;
 }
