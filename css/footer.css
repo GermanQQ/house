@@ -61,6 +61,22 @@
     font-size: 12px;
     line-height: 1.6;
 }
+@keyframes bounce {
+    0%, 20%, 60%, 100% {
+        transform: translateY(0);
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+
+    80% {
+        transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
 .social__icon img{
     width: 35px;
     margin: 0 5px;
@@ -169,5 +185,8 @@
     }
     .footer__link{
         margin: 20px 0;
+    }
+    .social__icon img:hover{
+        animation: bounce 1s;
     }
 }
