@@ -27,8 +27,7 @@
 .input__box{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    
+    width: 100%; 
 }
 .input__box p{ 
     color: #ffffff;
@@ -229,6 +228,49 @@
         height: 150px;
         margin-bottom: 0px;
     }
+}
+
+
+@media (max-width: 450px){
+    .feedback{
+        margin: 50px 0;
+    }
+    .feedback__box{
+        padding: 25px 15px;
+        height: 500px;
+       
+    }
+    .input__box p{ 
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    .form__title{
+        font-size: 22px;
+    }
+    .form__sup__title{
+        font-size: 12px;
+        margin: 15px 0; 
+    }
+    
+    .input__name{
+        font-size: 14px;
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+    .input__email{
+        font-size: 14px;
+        padding: 12px;
+        margin-bottom: 20px;
+    }
+    .textarea{
+        padding: 12px;
+        font-size: 14px;
+        height: 120px;
+    }
+    .input__box{
+        margin-bottom: 30px;
+    }
+    
 }
 
 

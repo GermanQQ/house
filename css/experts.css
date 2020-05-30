@@ -217,5 +217,18 @@
         font-weight: 400;
         color: #263238;
     }
+    .btn__box{
+        margin-top: 20px;
+    }
+    .btn{
+        padding: 10px 15px 10px 15px;
+        border-radius: 15px 0 15px 15px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .btn--Contact__us span{
+        margin-left: 10px;
+        font-size: 20px;
+    }
     
 }
