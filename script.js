@@ -1,7 +1,7 @@
 
 
 function bg(){
-background = document.querySelector('.moon');
+let background = document.querySelector('.moon');
 background.style.transform = 'translateY(0%)';
 document.querySelector('.full').style.transform = 'translateY(0%)';
 document.querySelector('.left').style.transform = 'translateX(0%)';
@@ -35,4 +35,14 @@ function slowScroll(id) {
         scrollTop: $(id).offset().top - offset
     }, 1000);
     return false;
+}
+
+function btnSubmit(){
+  const inputName =  document.querySelector('.input__name');
+  const inputEmail = document.querySelector('.input__email');
+  const teatArea =  document.querySelector('.textarea');
+
+  inputName.value = '';
+  inputEmail.value = '';
+  teatArea.value = '';
 }
