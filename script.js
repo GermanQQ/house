@@ -1,7 +1,7 @@
 
 
 function bg(){
-let background = document.querySelector('.moon');
+const background = document.querySelector('.moon');
 background.style.transform = 'translateY(0%)';
 document.querySelector('.full').style.transform = 'translateY(0%)';
 document.querySelector('.left').style.transform = 'translateX(0%)';
