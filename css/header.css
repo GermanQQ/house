@@ -26,7 +26,7 @@
 }
 .nav__link__text{
     position: relative;
-    margin: 0 20px  ;
+    margin: 0 20px;
     color: #ffffff;
     font-size: 16px;
     font-weight: 500;
@@ -108,19 +108,38 @@
     .nav__icon{
         display: block;
     }
-    .nav__items{
+    .search{
         display: none;
     }
-   .nav{
+    .nav__link__text{
+        font-size: 8px;
+        margin:0 0px;
+    }
+    .nav__link{
+        width: 40px;
+        text-align: center;
+    }
+   .nav__box__mobile{
+       width: 100%;
        display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-around;
         padding-bottom: 10px;
        border-bottom: 1px solid rgba(255, 255, 255, 0.3);
    }
+  .nav__items{
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+  }
+   .nav{
+       display: flex;
+       flex-direction: column;
+       
+   }
     .nav__icon img{
         width: 40px;
-        margin: 0 15px;
+        margin: 0 0px;
     }
     .img__logo{
         display: none;
