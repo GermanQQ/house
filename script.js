@@ -17,13 +17,18 @@ bg();
 //     document.querySelector('body').style.overflow = 'auto';
 // }
 // setTimeout(overflow, 5000);
+$(document).ready(function() {
+  $('.search__img').click(function(event){
+  $('.input__search').toggleClass('active');
+  });
+});
 
-function search(){
-        document.querySelector('.input__search').style.width = '100%';
-        document.querySelector('.input__search').style.cursor = 'text';
-        document.querySelector('.input__search').style.opacity = '1';
+// function search(){
+//         document.querySelector('.input__search').style.width = '100%';
+//         document.querySelector('.input__search').style.cursor = 'text';
+//         document.querySelector('.input__search').style.opacity = '1';
 
-}
+// }
 
 
 

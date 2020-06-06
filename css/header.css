@@ -60,6 +60,11 @@
     color: #ffffff;
     font-size: 14px;
 }
+.active{
+    width: 100%;
+    cursor: text;
+    opacity: 1;
+}
 .search__img{
     position: absolute;
     z-index: 3;
